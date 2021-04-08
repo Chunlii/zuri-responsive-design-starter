@@ -345,3 +345,131 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (max-width:1350px){ 
+    div.hero-background{
+        padding: 70px 30px;
+        padding-top: 150px;
+     }
+    div.background{
+        height: fit-content;
+        padding: 10px 10px 50px 10px;
+    }
+    div.hero-background-pos{
+        display: flex;
+        align-self: flex-start;
+        margin-top: -100px;
+        margin-left: -21%;
+     }
+}
+
+@media screen and (max-width :750px){
+    div.nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ul.nav-links{
+        margin-top: 20px;
+        text-align: center;   
+    }
+    .nav-links li{
+        font-size: 1em;
+    }
+    div.hero-section{
+        padding: 70px 30px;
+        margin: auto;
+    }
+    div.hero-content-heading h3{
+        font-size: 1.4em;
+    }
+    div.hero-content-heading p{
+        font-size: .9em;
+        padding-left: 0;
+    }
+    div.hero-background{
+       padding: 70px 30px;
+       padding-top: 150px;
+    }
+    div.background{   
+        height: fit-content;
+        padding: 0; 
+    }
+    div.background p{
+        font-size: .9em;
+        padding: 0 32px 32px 32px;
+    }
+    div.hero-background-pos{
+       display: flex;
+       align-self: flex-start;
+       margin-top: -100px;
+       margin-left: -25%;
+    }
+    div.snapshot-team{
+        padding: 30px;
+        padding-top: 60px;
+    }
+    div.snapshot-box{
+        margin-top: -50px;
+    }
+    div.snapshot-box-content{
+        display: flex;
+        flex-direction: column;
+    }
+    div.gallery-section{
+        padding: 64px 30px;
+    }
+    div.img3{
+        margin-top: -1px;
+    }
+    div.gallery-img div{
+        padding: 0px 30px;
+    }
+    div.footer{
+        padding: 48px 25px;
+    }
+    div.footer-content{
+        font-size: .9em;
+    }
+    div.footer-input{
+        display: flex;
+        flex-direction: column;
+    }
+    div.footer-input input{
+        width: 80%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    
+    div.footer-textarea textarea{
+        width: 80%;
+    }
+    div.footer-btn a{
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width :450px){
+    div.background{
+        text-align: center;
+        padding-top: 30px;
+    }
+    div.background h4{
+        padding-bottom: 15px;
+    }
+    div.hero-background-pos{
+        display: flex;
+        align-self: flex-start;
+        margin-top: -100px;
+        margin-left: -30%;
+     }
+}
+@media screen and (max-width :370px){
+    div.hero-background-pos{
+        display: flex;
+        align-self: flex-start;
+        margin-top: -100px;
+        margin-left: -33%;
+     }
+}
